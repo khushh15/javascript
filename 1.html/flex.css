@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lawngreen;
+    height: vh;
+}
+   
+
+.gh1,.gh2,.gh3,.gh4,.gh5{
+
+   height: 300px;
+   width: 200px;
+   background-color: red;
+   border: 5px aqua double;
+   text-align: center;
+   font-size: 3rem;
+   text-decoration-line:underline ;
+   text-decoration-style:wavy ;
+   text-decoration-color:aqua ;
+   text-decoration-thickness:10px ;
+
+}
+.top{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    border: 7px black double;
+}
+.gh7,.gh8,.gh9,.gh10,.gh11{
+    height: 250px;
+    width: 300px;
+    background-color: darkgoldenrod;
+    border: 5px darkred dotted;
+    font-size: 3rem;
+    text-decoration-line:underline ;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(109, 14, 109);
+    text-decoration-thickness: 15px;
+}
+.mid{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    width: 100%;
+    border: 8px black;
+}
+.gh12,.gh13,.gh14,.gh15,.gh16{
+    height: 100px;
+    width: 200px;
+    background-color: teal;
+    border: 8px crimson double;
+    font-size: 3rem;
+    text-decoration-line:underline ;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(109, 14, 109);
+    text-decoration-thickness: 15px;
+
+}
+.mid1{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100;
+    border: green 8px wavy;
+}
+.gh17.gh18,.gh19,.gh20,.gh21{
+    height: 200px;
+    width: 100px;
+    background-color: crimson;
+    border: 8px aqua double;
+    font-size: 3rem;
+    text-decoration-line:underline ;
+    text-decoration-style: dashed double;
+    text-decoration-color: rgb(202, 190, 14) (109, 14, 109);
+    text-decoration-thickness: 15px;
+
+}
+.mid1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100;
+    border: green 8px wavy;
+}
